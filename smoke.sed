@@ -8,6 +8,5 @@ s/Stop users period\">[0-9]+/Stop users period\">1/g
 s/flighttime\">[0-9]+/flighttime\">480/g
 s/rampUp\">[0-9]+/rampUp\">1/g
 s/on_sample_error\">[a-z]+/on_sample_error\">startnextloop/g
-s/Argument.value\">regression/Argument.value\">smoke/g
+s/Argument.value\">[a-z]+/Argument.value\">smoke/g
 s/Hold\">[0-9]+/Hold\">8/g
-s/Argument.value\">sm-controller/Argument.value\">tea/g
